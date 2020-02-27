@@ -125,3 +125,223 @@
 .recommend>div.fr>div{
     border-bottom: 1px solid #eee;
 }
+
+/*=================美食 css=============*/
+.food-title{
+    padding: 30px 0 13px 0;
+    overflow: hidden;
+}
+.food-title>h3{
+    height: 35px;
+    line-height: 30px;
+    padding-left: 50px;
+    position: relative;
+}
+.food-title>h3>i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43px;
+    height: 35px;
+    background: url(../imges/food-title.png) no-repeat;
+}
+.food-title>h3>a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.food-title>ul{
+    position: relative;
+    top:7px;                       
+}
+.food-title>ul>li{
+    display: inline-block;
+}
+.food-title>ul>li a{
+    font-size: 14px;
+    border-right: 1px solid #eee;
+    padding: 0 10px;
+}
+.food-title>ul>li>a .all{
+    padding-left: 20px;
+}
+/*==================侧边栏导航=================*/
+.side-nav{
+    position: fixed;
+    left: 15px;
+    top: 0;
+    border: 1px solid #eee;
+    border-bottom: 0;
+    color: #666;
+    z-index: 666;
+}
+.side-nav>li{
+    border-bottom: 1px solid #eee;
+    width: 40px;
+    cursor: pointer;
+}
+.side-nav>li>i{
+    display: block;
+    background: url(../imges/nav3-gray.png) no-repeat;
+    height:35px ;
+}
+.side-nav>li>p{
+    text-align: center;
+    padding: 3px 5px 8px;
+    line-height: 18px;
+}
+.side-nav>li.active,.side-nav>li:hover{
+    background: #2BB8AA;
+    color: #fff;
+}
+.side-nav>li.active>i,.side-nav>li:hover>i{
+    background-image: url(../imges/nav1-white.png);
+}
+/*==============商品列表===============*/
+
+.food-content{
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    overflow: hidden;
+}
+.single-food{
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 16px 16px 29px 15px;
+}
+.single-food a{
+    text-decoration: none;
+}
+.single-food a:hover{
+    text-decoration: none;
+    color: #666;
+}
+.single-food>h4{
+    margin-top: 17px;
+    font-size: 14px;
+}
+.single-food>p{
+    margin-top: 12px;
+    color: #999;
+}
+.single-food>ul.price{
+    color: #999;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    border-bottom: 1px dashed #eee;
+}
+.single-food>ul.price>li>b{
+    font-size: 20px;
+    color: #f76120;
+}
+.single-food>div.pingjia{
+    text-align: right;
+}
+.single-food>div.pingjia>i{
+    display: inline-block;
+    width: 60px;
+    height: 12px;
+    background: url(../imges/pingjia.png) no-repeat;
+    margin-top: 12px;
+}
+/*======================end栏===============*/
+.end{
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.end>a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.end span{
+    color: #a5e2f2;
+}
+
+/*======================团购分类======================*/
+#group{
+    margin-top: 51px;
+}
+.group{
+    width: 100%;
+    overflow: hidden;
+}
+.group ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f9f9f9;
+    border:1px solid #f2f2f2;
+    border-bottom: 0;
+    color:  #697490;
+}
+.group ul li a{
+    text-align: center;
+    padding: 0 26px;
+}
+.group ul li a:hover{
+    text-decoration: none;
+}
+.group ul li:hover{
+        background-color: #eeeeee;
+        cursor: pointer;
+}
+.group-content{
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    border: 1px solid #f2f2f2;
+}
+.group-content a{
+    font-size: 14px;
+    padding: 0 15px;
+}
+.group-content a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+/*===================水平线 CSS==================*/
+#lines{
+    margin-top: 25px;
+    height: 2px;
+    border-top: 1px solid  #efefef;
+    border-bottom:2px solid #f4f4f4 ;
+} 
+/*==================footer CSS=============*/
+#footer{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#footer dl{
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 100px;
+}
+#footer dl dt{
+    font-size: #697490;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#footer dl dd{
+    font-size: #a0a1a4;
+    line-height: 1.5;
+}
+#footer dd:hover{
+    cursor: pointer;
+}
+#footer a:hover{
+    text-decoration: none;
+}
+/*======================版权CSS=================*/
+.footer-end{
+    margin-top: 50px;
+    border-top: 1px solid #a0a1a4;
+    padding-top: 30px;
+}
+.footer-end p{
+    text-align: center;
+    color: #a0a1a4;
+    padding-bottom: 10px;
+}
